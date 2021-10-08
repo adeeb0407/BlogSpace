@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300&display=swap');
+
+*{
+    transition: all 0.5s ease;
+}
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: transparent; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+    cursor: pointer;
+  }
+html {
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+.buttonAligniment{
+    display: flex;
+    justify-content: center;
+}
+.navHeadingFont {
+    font-style: italic;
+    font-size: 40px;
+}
+.navGeneral {
+    font-size: 20px;
+    position: fixed;
+    right : 0;
+    left : 0;
+    top : 0;
+    z-index: 1;
+}
